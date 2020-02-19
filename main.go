@@ -16,7 +16,7 @@ func main() {
         c.JSON(200, gin.H{
             "message": "pong",
         })
-    })
+    }) 
     Router.Run(":8080")
 }
 
